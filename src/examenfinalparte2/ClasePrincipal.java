@@ -47,11 +47,15 @@ public class ClasePrincipal {
             } 
         } 
      
-                if (p == true) 
-                    System.out.println(w);    
+                resultado(w);    
             }
         }
         }
+
+    public static void resultado(int w) {
+        if (p == true)
+            System.out.println(w);
+    }
 
     public static void introducirNumDigitos(int digitos) {
         if(digitos<=0)
