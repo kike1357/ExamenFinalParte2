@@ -13,13 +13,13 @@ public class ClasePrincipal {
         System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         for(int w = 1; w <= 99999; w++ )
         {
-            int aux = w;
+            int auxiliar = w;
  
             int contador=0;
  
-            while (aux != 0)
+            while (auxiliar != 0)
         {
-            aux = aux / 10;
+            auxiliar = auxiliar / 10;
             contador++;
         }
         ndig=contador;
