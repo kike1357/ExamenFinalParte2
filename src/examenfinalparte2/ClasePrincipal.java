@@ -7,9 +7,9 @@ public class ClasePrincipal {
     
     public static void main(String arg[])
         {
-        int dig=2;
+        int digitos=2;
         int numeroDigitos=0;
-        if(dig<=0)
+        if(digitos<=0)
         System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         for(int w = 1; w <= 99999; w++ )
         {
@@ -25,7 +25,7 @@ public class ClasePrincipal {
         numeroDigitos=contador;
             
             
-            if(numeroDigitos==dig){
+            if(numeroDigitos==digitos){
                    if (w < 4) p = true;
             else
             {
