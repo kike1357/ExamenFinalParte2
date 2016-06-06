@@ -9,8 +9,7 @@ public class ClasePrincipal {
         {
         int digitos=2;
         int numeroDigitos=0;
-        if(digitos<=0)
-        System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
+        introducirNumDigitos(digitos);
         for(int w = 1; w <= 99999; w++ )
         {
             int auxiliar = w;
@@ -53,6 +52,11 @@ public class ClasePrincipal {
             }
         }
         }
+
+    public static void introducirNumDigitos(int digitos) {
+        if(digitos<=0)
+            System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
+    }
  
        
  
