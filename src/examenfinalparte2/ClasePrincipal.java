@@ -8,7 +8,7 @@ public class ClasePrincipal {
     public static void main(String arg[])
         {
         int dig=2;
-        int ndig=0;
+        int numeroDigitos=0;
         if(dig<=0)
         System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         for(int w = 1; w <= 99999; w++ )
@@ -22,10 +22,10 @@ public class ClasePrincipal {
             auxiliar = auxiliar / 10;
             contador++;
         }
-        ndig=contador;
+        numeroDigitos=contador;
             
             
-            if(ndig==dig){
+            if(numeroDigitos==dig){
                    if (w < 4) p = true;
             else
             {
