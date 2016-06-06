@@ -45,6 +45,11 @@ public class ClasePrincipal {
             }
         }
         }
+    /**
+     * Recoje las variable auxiliar
+     * 
+     * @param auxiliar el nombre que se le da a esa variable
+     */ 
 
     public static int numContador(int auxiliar) {
         int contador=0;
@@ -55,12 +60,20 @@ public class ClasePrincipal {
         }
         return contador;
     }
-
+/**
+     * Nos muestra el valor de w si es true o false
+     * 
+     * @param w nombre que se le dio a la variable
+     */ 
     public static void resultado(int w) {
         if (p == true)
             System.out.println(w);
     }
-
+/**
+     * Recoje la variable digitos
+     * 
+     * @param digitos muestra el numero de digitos mayor que cero
+     */ 
     public static void introducirNumDigitos(int digitos) {
         if(digitos<=0)
             System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
