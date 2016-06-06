@@ -14,13 +14,7 @@ public class ClasePrincipal {
         {
             int auxiliar = w;
  
-            int contador=0;
- 
-            while (auxiliar != 0)
-        {
-            auxiliar = auxiliar / 10;
-            contador++;
-        }
+            int contador=numContador(auxiliar);
         numeroDigitos=contador;
             
             
@@ -51,6 +45,16 @@ public class ClasePrincipal {
             }
         }
         }
+
+    public static int numContador(int auxiliar) {
+        int contador=0;
+        while (auxiliar != 0)
+        {
+            auxiliar = auxiliar / 10;
+            contador++;
+        }
+        return contador;
+    }
 
     public static void resultado(int w) {
         if (p == true)
